@@ -22,7 +22,7 @@ from bot import bot
 from config import Config
 from pyrogram import idle
 from helpers.log import LOGGER
-from helpers.utils import start_stream
+from helpers.utils import STARTUP_STREAM
 from assets.user import group_call, USER
 from pyrogram.errors import UserAlreadyParticipant
 
