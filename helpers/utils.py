@@ -37,7 +37,6 @@ from pytgcalls import StreamType
 from yt_dlp import YoutubeDL
 from pytgcalls.types import Update
 from assets.user import group_call, USER
-from wrapt_timeout_decorator import timeout
 from pyrogram.raw.types import InputChannel
 from concurrent.futures import CancelledError
 from pyrogram.raw.functions.channels import GetFullChannel
