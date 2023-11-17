@@ -264,8 +264,8 @@ async def restart_playout():
     if data:
         audio_file, video_file, width, height = await get_raw_files(data['file'])
         await sleep(1)
-        if Config.STREAM_LINK:
-            Config.STREAM_LINK=False
+        if Config.STREAM_URL:
+            Config.STREAM_URL=False
         await join_call(audio_file, video_file, width, height)
     else:
         await play()
