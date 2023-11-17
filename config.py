@@ -97,6 +97,6 @@ class Config:
     FFMPEG_PROCESSES={}
     PAUSE=False
     MUTED=False
-    STREAM_LINK=False
+    STREAM_URL=False
     ADMIN_CACHE=False
     CALL_STATUS=False
